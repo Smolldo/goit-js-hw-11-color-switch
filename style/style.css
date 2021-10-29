@@ -1,0 +1,18 @@
+button{
+    width: 100px;
+    height: 66px;
+    border-radius: 48px;
+    border: 2px solid lightslategrey;
+    outline: none;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: italic;
+    transition: .2s linear;
+}
+
+button:hover, button:focus{
+    cursor: pointer;
+    box-shadow: 3px 4px 6px black;
+    color: white;
+    background-color: royalblue;
+}
